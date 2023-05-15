@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+}
+
+.card {
+    background-color: #ccc;
+    padding-bottom: 1em;
+}
+
+.post-it {
+    margin: 0 auto;
+    margin-top: 15%;
+    padding-top: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: rgb(255, 255, 255);
+    width: 330px;
+    height: 300px;
+    text-align: center;
+    transform: rotate(10deg);
+}
+
+span {
+    font-size: 4rem;
+}
+
+.colors {
+    margin-top: 20px;
+  }
+  
+  .color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .red {
+    background-color: red;
+    color: white;
+  }
+
+  .red-active {
+    background: linear-gradient(180deg, #f2788f 42%, #f0a2b0 100%);
+    -webkit-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+    box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+  }
+  
+  .pink {
+    background-color: pink;
+    color: white;
+  }
+
+  .pink-active {
+    background: linear-gradient(180deg, #f69dbb 42%, #f9bcd0 100%);
+    -webkit-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+    box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+  }
+  
+  .yellow {
+    background-color: #e3e546;
+    color: black;
+  }
+
+  .yellow-active {
+    background: linear-gradient(180deg, #e3e546 42%, #f3f4ab 100%);
+    -webkit-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+    box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+  }
+  
+  .teste {
+    background-color: #73cac4;
+    color: black;
+  }
+
+  .blue-active {
+    background: linear-gradient(180deg, #73cac4 42%, #b0e8e4 100%);
+    -webkit-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+    box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+  }
+
+  .orange {
+    background-color: #fbad4b;
+    color: black;
+  }
+
+  .orange-active {
+    background: linear-gradient(180deg, #fbad4b 42%, #e8b981 100%);
+    -webkit-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+    box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+  }
+  
