@@ -1,25 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-body {
+.main {
     font-family: 'Caveat', cursive;
-    font-size: 3rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colors {
+    background-color: #07070787;
+    border: solid 1.5px;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.color-btn {
+    border-radius: 10px;
+    width: 35px;
+    height: 35px;
 }
 
 .card {
-    background-color: #ccc;
-    padding-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkgreen;
+    border: solid 5px #d0b220;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    padding: 70px;
 }
 
 .post-it {
-    margin: 0 auto;
-    margin-top: 15%;
-    padding-top: 0.5em;
+    background: rgb(155, 149, 149);
+    margin: 50px auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    background: rgb(255, 255, 255);
     width: 330px;
     height: 300px;
     text-align: center;
@@ -30,74 +54,71 @@ span {
     font-size: 4rem;
 }
 
-.colors {
-    margin-top: 20px;
-  }
-  
-  .color-btn {
+
+
+.color-btn {
     padding: 10px 20px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-  }
-  
-  .red {
+}
+
+.red {
     background-color: red;
     color: white;
-  }
+}
 
-  .red-active {
+.red-active {
     background: linear-gradient(180deg, #f2788f 42%, #f0a2b0 100%);
     -webkit-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
     -moz-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
     box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
-  }
-  
-  .pink {
+}
+
+.pink {
     background-color: pink;
     color: white;
-  }
+}
 
-  .pink-active {
+.pink-active {
     background: linear-gradient(180deg, #f69dbb 42%, #f9bcd0 100%);
     -webkit-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
     -moz-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
     box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
-  }
-  
-  .yellow {
+}
+
+.yellow {
     background-color: #e3e546;
     color: black;
-  }
+}
 
-  .yellow-active {
+.yellow-active {
     background: linear-gradient(180deg, #e3e546 42%, #f3f4ab 100%);
     -webkit-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
     -moz-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
     box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
-  }
-  
-  .teste {
+}
+
+.teste {
     background-color: #73cac4;
     color: black;
-  }
+}
 
-  .blue-active {
-    background: linear-gradient(180deg, #73cac4 42%, #b0e8e4 100%);
+.blue-active {
+    background: linear-gradient(180deg, #73cac4 42%, #73cac4 100%);
     -webkit-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
     -moz-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
     box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
-  }
+}
 
-  .orange {
+.orange {
     background-color: #fbad4b;
     color: black;
-  }
+}
 
-  .orange-active {
+.orange-active {
     background: linear-gradient(180deg, #fbad4b 42%, #e8b981 100%);
     -webkit-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
     -moz-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
     box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
-  }
-  
+}
