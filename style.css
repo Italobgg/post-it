@@ -37,7 +37,7 @@
 }
 
 .post-it {
-    background: rgb(155, 149, 149);
+    background: darkgreen;
     margin: 50px auto;
     display: flex;
     align-items: center;
@@ -121,4 +121,51 @@ span {
     -webkit-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
     -moz-box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
     box-shadow: 10px 12px 10px -7px rgba(0, 0, 0, 0.69);
+}
+
+@media (max-width: 768px) {
+    .post-it {
+        /* Estilos específicos para telas menores que 768px */
+        background: darkgreen;
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 330px;
+        height: 300px;
+        text-align: center;
+        transform: rotate(10deg)
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: darkgreen;
+        border: solid 5px #d0b220;
+        width: 100%;
+        max-width: 500px;
+        height: 100%;
+        padding: 30px;
+    }
+
+    .post-it {
+        /* Estilos específicos para telas menores que 480px */
+        background: darkgreen;
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 300px;
+        height: 290px;
+        text-align: center;
+        transform: rotate(10deg)
+    }
 }
